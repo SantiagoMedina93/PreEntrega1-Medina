@@ -1,0 +1,45 @@
+.itemDetail{
+    display: flex;
+    justify-content: center;
+    
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 25px;
+}
+
+.itemDetail div{
+    margin-left: 20px;
+}
+
+.itemDetail h1{
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.itemDetail h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.itemDetail p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#backButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#backButton button{
+    padding: 15px;
+    border: none;
+    background-color: #128DED;
+    margin-left: 15px;
+    border-radius: 15px;
+    color: azure;
+}

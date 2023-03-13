@@ -1,10 +1,11 @@
 import './styles.css'
+import { ItemList } from '../ItemList/ItemList';
 
-export const ItemListContainer = ({itemList}) => {
+
+export const ItemListContainer = () => {
     return (
-        <h1 className='item'>
-            { itemList }
-        </h1>
-            
+        <>
+            <ItemList />
+        </>
     )
 };

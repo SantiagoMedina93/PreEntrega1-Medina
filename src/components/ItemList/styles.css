@@ -1,0 +1,33 @@
+.mangaCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+    border: 1px solid gray;
+    margin: 15px;
+}
+
+.mangaCard div{
+    margin: 10px;
+}
+
+.mangaCard div button{
+    font-size: 12px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.mangaListContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    width: 90%;
+}
+
+.ocultarComponente{
+    display: none;
+}

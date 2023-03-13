@@ -73,3 +73,16 @@
     font-size: 22px;
     background-color: white
 }
+
+.link{
+    list-style: none;
+    text-decoration: none;
+    color: azure;
+}
+
+.linkCard{
+    list-style: none;
+    text-decoration: none;
+    color: #128DED;
+    border-bottom: 1px solid blue;
+}
